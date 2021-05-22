@@ -21,11 +21,11 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from Mafia.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL,BOT_USERNAME
 logging.basicConfig(level=logging.INFO)
 
-@Client.on_message(filters.private & filters.incoming & filters.command(['start']))
-def _start(client, message):
-    client.send_message(message.chat.id,
-        text=tr.START_MSG.format(message.from_user.first_name, message.from_user.id),
-        parse_mode="markdown",
+@Client.on_message(other_filters2)
+async def start(_, message: Message):
+    await message.reply_sticker("CAACAgUAAxkBAAIYqWCf3bqhz7RrWf_4St57ydK4kLK7AAI-AwAC3O4AAVVRfNbcVZ0joh8E")
+    await message.reply_text(
+        f"""**Hey, I'm {BOT_NAME} 🎵""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
