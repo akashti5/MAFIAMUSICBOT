@@ -3,6 +3,7 @@
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/Shinchan7222/MAFIAMUSICBOT",
+  "logo": "https://telegra.ph/file/b615d2574c163a5e34933.jpg",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
