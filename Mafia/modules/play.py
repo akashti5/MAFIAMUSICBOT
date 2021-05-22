@@ -34,7 +34,6 @@ from youtube_search import YoutubeSearch
 from Mafia.config import ARQ_API_KEY
 from Mafia.config import BOT_NAME as bn
 from Mafia.config import DURATION_LIMIT
-from Mafia.config import UPDATES_CHANNEL as updateschannel
 from Mafia.config import que
 from Mafia.function.admins import admins as a
 from Mafia.helpers.admins import get_administrators
