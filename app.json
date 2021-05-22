@@ -40,14 +40,14 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": " https://telegra.ph/file/dcfdf612e499eef0e0b1f.png"
+      "value": " https://telegra.ph/file/b615d2574c163a5e34933.jpg"
     },    
     "API_ID": {
-      "description": "App ID from my.telegram.org/apps",
+      "description": "App ID from @Mafia_api_hash_extractorBot",
       "required": true
     },
     "API_HASH": {
-      "description": "App hash from my.telegram.org/apps",
+      "description": "App hash from @Mafia_api_hash_extractorBot",
       "required": true
     },
     "SUDO_USERS": {
