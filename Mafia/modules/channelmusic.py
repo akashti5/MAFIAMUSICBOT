@@ -39,7 +39,6 @@ from Mafia.modules.play import time_to_seconds
 from Mafia.modules.play import changeImageSize
 from Mafia.config import BOT_NAME as bn
 from Mafia.config import DURATION_LIMIT
-from Mafia.config import UPDATES_CHANNEL as updateschannel
 from Mafia.config import que
 from Mafia.function.admins import admins as a
 from Mafia.helpers.admins import get_administrators
