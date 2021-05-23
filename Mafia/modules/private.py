@@ -26,7 +26,7 @@ logging.basicConfig(level=logging.INFO)
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIYqWCf3bqhz7RrWf_4St57ydK4kLK7AAI-AwAC3O4AAVVRfNbcVZ0joh8E")
     await message.reply_text(
-        f"""**Hey, I'm {BOT_NAME} 🎵""",
+        f"""**Hey, I'm [MusicBot](https://t.me/MafiaBot_Support) For VC 🎵""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
