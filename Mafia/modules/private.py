@@ -16,7 +16,8 @@
 
 import logging
 from Mafia.modules.msg import Messages as tr
-from pyrogram import Client, filters,other_filters2
+from pyrogram import Client, filters
+from Mafia.helpers.filters import other_filters2
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from Mafia.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,BOT_USERNAME
 logging.basicConfig(level=logging.INFO)
