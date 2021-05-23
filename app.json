@@ -40,7 +40,7 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": " https://telegra.ph/file/a0fdae9a48f8ea131be49.png"
+      "value": " https://telegra.ph/file/61161c4d12a75afd9f56e.png"
     },    
     "API_ID": {
       "description": "App ID from @Mafia_api_hash_extractorBot",
