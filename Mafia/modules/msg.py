@@ -45,4 +45,3 @@ Admins only
 - /userbotjoin - invite assistant to your chat
 - /userbotleave - remove assistant from your chat
 - /admincache - Refresh admin list""")
-      ]
