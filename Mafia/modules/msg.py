@@ -16,6 +16,8 @@
 
 import os
 from Mafia.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME
+from pyrogram import Client, filters
+from Mafia.helpers.filters import other_filters2
 class Messages():
       START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
       @Client.on_message(command("help") & other_filters2)
