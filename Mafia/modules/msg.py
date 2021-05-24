@@ -21,7 +21,7 @@ from Mafia.helpers.filters import other_filters2
 class Messages():
       START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
       @Client.on_message(command("help") & other_filters2)
-async def helper(_, message: Message):
+async def helpers(_, message: Message):
     await message.reply_text(
         f"""😊Thanks for useing this bot😊
 
