@@ -16,34 +16,86 @@
 
 import os
 from Mafia.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME
-from pyrogram import Client, filters
-from Mafia.helpers.filters import other_filters2
 class Messages():
       START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
-      @Client.on_message(other_filters2)
-async def help(_, message: Message):
-    await message.reply_text(
-        f"""😊Thanks for useing this bot😊
+      HELP_MSG = [
+        ".",
+f"""
+**Hey 👋 Welcome back to {PROJECT_NAME}
 
-❤ The commands and there use is explained here ❤
-For all in group
-- /play  - play song you requested
-- /dplay  - play song you requested via deezer
-- /splay  - play song you requested via jio saavn
-- /playlist - Show now playing list
-- /current - Show now playing
-- /song  - download songs you want quickly
-- /search  - search videos on youtube with details
-- /deezer  - download songs you want quickly via deezer
-- /saavn  - download songs you want quickly via saavn
-- /video  - download videos you want quickly
+⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
-Admins only
-- /player - open music player settings panel
-- /pause - pause song play
-- /resume - resume song play
-- /skip - play next song
-- /end - stop music play
-- /userbotjoin - invite assistant to your chat
-- /userbotleave - remove assistant from your chat
-- /admincache - Refresh admin list""")
+⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+""",
+
+f"""
+**Setting up**
+
+1) Make bot admin (Group and in channel if use cplay)
+2) Start a voice chat
+3) Try /play [song name] for the first time by an admin
+*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+
+**For Channel Music Play**
+1) Make me admin of your channel 
+2) Send /userbotjoinchannel in linked group
+3) Now send commands in linked group
+
+**Commands**
+
+**=>> Song Playing 🎧**
+
+- /play: Play song using youtube music
+- /play [yt url] : Play the given yt url
+- /play [reply yo audio]: Play replied audio
+- /dplay: Play song via deezer
+- /splay: Play song via jio saavn
+
+**=>> Playback ⏯**
+
+- /player: Open Settings menu of player
+- /skip: Skips the current track
+- /pause: Pause track
+- /resume: Resumes the paused track
+- /end: Stops media playback
+- /current: Shows the current Playing track
+- /playlist: Shows playlist
+""",
+        
+f"""
+**=>> Channel Music Play 🛠**
+
+⚪️ For linked group admins only:
+
+- /cplay [song name] - play song you requested
+- /cdplay [song name] - play song you requested via deezer
+- /csplay [song name] - play song you requested via jio saavn
+- /cplaylist - Show now playing list
+- /cccurrent - Show now playing
+- /cplayer - open music player settings panel
+- /cpause - pause song play
+- /cresume - resume song play
+- /cskip - play next song
+- /cend - stop music play
+- /userbotjoinchannel - invite assistant to your chat
+
+channel is also can be used instead of c ( /cplay = /channelplay )
+
+⚪️ If you donlt like to play in linked group:
+
+1) Get your channel ID.
+2) Create a group with tittle: Channel Music: your_channel_id
+3) Add bot as Channel admin with full perms
+4) Add @{ASSISTANT_NAME} to the channel as an admin.
+5) Simply send commands in your group.
+""",
+
+f"""
+**=>> More tools 🧑‍🔧**
+
+- /admincache: Updates admin info of your group. Try if bot isn't recognize admin
+- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
+
+*Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
+"""
+      ]
