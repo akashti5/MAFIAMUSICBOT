@@ -35,7 +35,7 @@ ASSISTANT_NAME = getenv("ASSISTANT_NAME", "mafia_music_player")
 PROJECT_NAME = getenv("PROJECT_NAME", "Mafiamusic")
 SOURCE_CODE = getenv("SOURCE_CODE", "https://github.com/Shinchan7222/MAFIAMUSICBOT")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
-ARQ_API_KEY = getenv("ARQ_API_KEY", "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ")
+ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
