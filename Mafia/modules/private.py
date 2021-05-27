@@ -40,9 +40,7 @@ async def start(_, message: Message):
                 ],[
                     InlineKeyboardButton(
                         "🛠 Source Code 🛠", url=f"https://github.com/Shinchan7222/MAFIAMUSICBOT")
-                ],[
-                    InlineKeyboardButton(
-                        "💬 CAMMANDS 💬", url=f"https://telegra.ph/MAFIA-MUSIC-05-27")
+                ]
             ]
         ),
         reply_to_message_id=message.message_id
@@ -119,7 +117,7 @@ async def ghelp(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🟡 Click here for help 🟡", url=f"https://t.me/{BOT_USERNAME}?start"
+                        "🟡 Click here for help 🟡", url=f"https://telegra.ph/MAFIA-MUSIC-05-27"
                     )
                 ]
             ]
