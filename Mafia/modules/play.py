@@ -47,7 +47,7 @@ from Mafia.services.converter.converter import convert
 from Mafia.services.downloaders import youtube
 
 chat_id = None
-arq = ARQ("https://thearq.tech", ARQ_API_KEY)
+arq = ARQ("https://thearq.tech", {ARQ_API_KEY})
 
 
 def cb_admin_check(func: Callable) -> Callable:
