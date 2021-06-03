@@ -1,6 +1,6 @@
 <h1 align="centre">🎶 𝐌𝐚𝐟𝐢𝐚𝐦𝐮𝐬𝐢𝐜𝐛𝐨𝐭 🎶</h1>
 
-[![MAFIAMUSICBOT LOGO](https://telegra.ph/file/938c1c08c53972280185c.jpg)](https://t.me/MafiaBot_Support)
+[![MAFIAMUSICBOT LOGO](https://telegra.ph/file/7ef5d3f16ee955f44a100.jpg)](https://t.me/MafiaBot_Support)
 
 ## Requirements 📝
 
