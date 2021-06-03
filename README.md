@@ -1,6 +1,6 @@
 <h1 align="centre">🎶 𝐌𝐚𝐟𝐢𝐚𝐦𝐮𝐬𝐢𝐜𝐛𝐨𝐭 🎶</h1>
 
-[![MAFIAMUSICBOT LOGO](https://telegra.ph/file/7ef5d3f16ee955f44a100.jpg)](https://t.me/MafiaBot_Support)
+[![NobiXMusic BOT LOGO](https://telegra.ph/file/7ef5d3f16ee955f44a100.jpg)](https://t.me/cartoons_007)
 
 ## Requirements 📝
 
@@ -13,7 +13,9 @@
 
 <h3 align="centre"> Heroku </h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shinchan7222/MAFIAMUSICBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/akashti5/MAFIAMUSICBOT)
+
+)
 
 Get STRING_NAME from here:
 
