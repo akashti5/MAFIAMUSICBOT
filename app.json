@@ -1,9 +1,9 @@
 {
-  "name": "MafiaMusic",
+  "name": "NobiXMusic",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/Shinchan7222/MAFIAMUSICBOT",
-  "logo": "https://telegra.ph/file/b615d2574c163a5e34933.jpg",
+  "logo": "https://telegra.ph/file/fb07f4840e9354af1f558.jpg",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
