@@ -24,22 +24,22 @@ logging.basicConfig(level=logging.INFO)
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIZL2CvjAlQ7TBg3IjRaLAlunS0BXQ2AAI-AwAC3O4AAVVRfNbcVZ0joh8E")
+    await message.reply_sticker("CAACAgUAAxkBAAEKLNVgtzBywOMZFXoMLKkoFknQ_SDAZAACjAMAAj9SuVV51X1QFOqAZh8E")
     await message.reply_text(
-        f"""**Hey, I'm [MusicBot](https://t.me/MafiaBot_Support) For VC 🎵""",
+        f"""**Hey, It's [NobiXMusicBot](https://t.me/cartoons_007) For VC 🎵""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/VC_CRAZY_BOT?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "📲 Channel", url=f"https://t.me/MafiaBot_Support"), 
+                        "🔥OWNER🔥", url=f"https://t.me/DesiNobita"), 
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/MafiaBot_Chit_Chat")
+                        "⚜Support Chat⚜", url=f"https://t.me/cartoons_007")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://github.com/Shinchan7222/MAFIAMUSICBOT")
+                        "🔱Co-Owner🔱", url=f"https://t.me/DesiShinchan")
                 ]
             ]
         ),
@@ -54,7 +54,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/MafiaBot_Support"
+                       "⚜Support Chat⚜", url=f"https://t.me/cartoons_007"
                     )
                 ]
             ]
@@ -92,12 +92,12 @@ def map(pos):
             [InlineKeyboardButton(text = '▶️', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
-        url = f"https://t.me/MafiaBot_Chit_Chat"
+        url = f"https://t.me/cartoons_007"
         button = [
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Channel', url=f"https://t.me/MafiaBot_Support"),
-             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/MafiaBot_Chit_Chat")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://github.com/Shinchan7222/MAFIAMUSICBOT")],
+            [InlineKeyboardButton(text = '📲 Channel', url=f"https://t.me/REALVIBESn"),
+             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/cartoons_007")],
+            [InlineKeyboardButton(text = '🔥OWNER🔥', url=f"https://t.me/DesiNobita")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
@@ -117,7 +117,7 @@ async def ghelp(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🟡 Click here for help 🟡", url=f"https://telegra.ph/MAFIA-MUSIC-05-27"
+                        "⚜Channel⚜", url=f"https://t.me/REALVIBESn"
                     )
                 ]
             ]
